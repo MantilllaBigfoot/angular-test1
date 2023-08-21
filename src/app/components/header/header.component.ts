@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
-  title: string = 'angular-test1';
+  title: string = 'Task Tracker';
 
   //Gets called from the event emitter in button class
   toggleAddTask() {
